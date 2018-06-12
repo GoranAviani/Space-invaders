@@ -12,6 +12,7 @@ class Ship():
 
         #Pygame treats game elements like rectangles (rects), even if not shaped as rectangle :)
         self.rect = self.image.get_rect()
+        #position the ship at the bottom center of the screen:
         self.screen_rect = screen.get_rect()
         #start each new ship on the bottom center of the screen
         self.rect.centerx = self.screen_rect.centerx
