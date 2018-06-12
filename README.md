@@ -3,7 +3,7 @@
 
 ## Getting Started
 
-![Space Invaders Poster](https://flyers.arcade-museum.com/flyers_video/taito/28031001.jpg)
+![Space Invaders Poster](https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Space_Invaders_flyer%2C_1978.jpg/220px-Space_Invaders_flyer%2C_1978.jpg)
 
 
 ### Prerequisites
