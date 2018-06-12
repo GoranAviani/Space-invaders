@@ -4,8 +4,9 @@ The year was 1978. Black-and-white game created by Tomohiro Nishikado came out. 
 
 Nishikado drew inspiration from games such as 
 * Breakout
-* Gun Fight 
-	and science fiction stories 
+* Gun Fight
+
+and science fiction stories such as
 * The War of the Worlds 
 * Space Battleship Yamato 
 * Star Wars.
