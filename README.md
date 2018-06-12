@@ -2,7 +2,13 @@
 
 The year was 1978. Black-and-white game created by Tomohiro Nishikado came out. The game that would set the standard for shooters for years to come. That game was Space Invaders.
 
-Nishikado drew inspiration from games such as Breakout and Gun Fight and science fiction stories such as The War of the Worlds, Space Battleship Yamato, and Star Wars.
+Nishikado drew inspiration from games such as 
+* Breakout
+* Gun Fight 
+	and science fiction stories 
+* The War of the Worlds 
+* Space Battleship Yamato 
+* Star Wars.
 
 Space Invaders was one of the forerunners of modern video games, and helped expand the video game industry from a novelty to a global industry. Technology journalist Jason Whittaker places the beginning of the golden age in 1978, with the release of Space Invaders.
 
@@ -48,8 +54,8 @@ Settings class stores all settings in one place.
 ## Authors
 
 * **Goran Aviani** 
-* [Linkedin](https://www.linkedin.com/in/goran-aviani/)
-* [Github](https://github.com/GoranAviani)
+	[Linkedin](https://www.linkedin.com/in/goran-aviani/)
+	[Github](https://github.com/GoranAviani)
  
 ## License
 
