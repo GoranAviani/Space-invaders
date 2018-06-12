@@ -7,7 +7,7 @@
 
 
 ### Prerequisites
-Amibit is made using Python 3 and Pygame
+Space invaders is made using Python 3 and Pygame.
 All dependancies are in requirements.txt
 
 
