@@ -44,7 +44,8 @@ pip3 install pygame
 ### Break down the game
 
 * Settings module: Settings module contains Setting class. Settings class stores all settings in one place.
-* Ship module contains ship class
+* Ship module contains ship class.
+* game_functions module will prevent alien_invasion.py from becoming too big to follow.
 
 
 ## Built With
