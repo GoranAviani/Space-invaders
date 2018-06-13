@@ -6,7 +6,6 @@ class Ship():
     def __init__(self, screen):
 
         self.screen = screen
-
         #Load the ship image
         self.image = pygame.image.load('images/ship.bmp')
 
@@ -17,6 +16,18 @@ class Ship():
         #start each new ship on the bottom center of the screen
         self.rect.centerx = self.screen_rect.centerx
         self.rect.bottom = self.screen_rect.bottom
+
+        #Movement direction
+        self.moving_right = False
+
+    #Change ship position based on movement direction
+    def update(self):
+        if self.moving_right:
+            # Move the ship to the right.
+            self.rect.centerx += 1
+
+
+
 
     def blitme(self):
         #draw ship at its current location

@@ -1,7 +1,7 @@
 import pygame
 from settings import Settings
 from ship import Ship
-import game_functions as gf
+import game_functions as Gf
 
 def run_game():
     #Initialize pygame, settings and screen
@@ -16,14 +16,15 @@ def run_game():
     pygame.display.set_caption("Space invaders by Goran Aviani")
 
     #make a ship
-    ship = Ship(screen)
+    space_ship = Ship(screen)
 
 
     #Start the main loop of the game
     while True:
 
-        gf.check_events(ship)
-        gf.update_screen(ai_settings, screen, ship)
+        Gf.check_events(space_ship)
+        space_ship.update()
+        Gf.update_screen(ai_settings, screen, space_ship)
 
 
 
