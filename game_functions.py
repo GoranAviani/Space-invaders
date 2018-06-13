@@ -1,11 +1,17 @@
 import sys
 import pygame
 
-def check_events():
+def check_events(ship):
     # Listen for keyboard and mouse envents
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             sys.exit()
+
+        #When Pygame detects KEYDOWN event I check if right key is pressed. If so increse position for 1 pixel
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_RIGHT:
+                # Move the ship to the right.
+                ship.rect.centerx += 1
 
 
 def update_screen(ai_settings, screen, ship):
