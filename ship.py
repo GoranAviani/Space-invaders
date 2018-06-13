@@ -7,7 +7,7 @@ class Ship():
 
         self.screen = screen
         #Load the ship image
-        self.image = pygame.image.load('images/ship.bmp')
+        self.image = pygame.image.load('images/SpaceInvadersCannon.png')
 
         #Pygame treats game elements like rectangles (rects), even if not shaped as rectangle :)
         self.rect = self.image.get_rect()
