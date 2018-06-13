@@ -9,16 +9,22 @@ def check_events(space_ship):
 
         #When Pygame detects KEYDOWN event I check if right key is pressed. If so increse position for 1 pixel
         #KEYDOWN == when key is pressed down, KEYUP == when key is released
-
-        #IF right key is pressed ship is moving right
         elif event.type == pygame.KEYDOWN:
+            # IF right key is pressed ship is moving right
             if event.key == pygame.K_RIGHT:
                 space_ship.moving_right = True
+            # elseIF left key is pressed ship is moving right
+            elif event.key == pygame.K_LEFT:
+                space_ship.moving_left = True
 
-        #IF the right key is released ship has stopped moving right
+
         elif event.type == pygame.KEYUP:
+            # IF the right key is released ship has stopped moving right
             if event.key == pygame.K_RIGHT:
                 space_ship.moving_right = False
+            elif event.key == pygame.K_LEFT:
+                space_ship.moving_left = False
+
 
 
 def update_screen(ai_settings, screen, ship):

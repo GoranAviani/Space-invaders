@@ -19,12 +19,16 @@ class Ship():
 
         #Movement direction
         self.moving_right = False
+        self.moving_left = False
 
     #Change ship position based on movement direction
     def update(self):
         if self.moving_right:
             # Move the ship to the right.
             self.rect.centerx += 1
+
+        if self.moving_left:
+            self.rect.centerx -= 1
 
 
 
