@@ -14,7 +14,7 @@ Nishikado drew inspiration from games such as
 and science fiction stories such as
 * The War of the Worlds 
 * Space Battleship Yamato 
-* Star Wars.
+* Star Wars
 
 
 ![Space Invaders Poster](https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Space_Invaders_flyer%2C_1978.jpg/220px-Space_Invaders_flyer%2C_1978.jpg)
@@ -41,15 +41,10 @@ After entering into your virtualenv install pygame:
 pip3 install pygame
 ```
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
 ### Break down the game
 
-* Settings module:
-Settings module contains Setting class.
-Settings class stores all settings in one place.
+* Settings module: Settings module contains Setting class. Settings class stores all settings in one place.
+* Ship module contains ship class
 
 
 ## Built With
@@ -59,9 +54,8 @@ Settings class stores all settings in one place.
 ## Authors
 
 * **Goran Aviani** 
-
-[Linkedin](https://www.linkedin.com/in/goran-aviani/)
-[Github](https://github.com/GoranAviani)
+* [Linkedin](https://www.linkedin.com/in/goran-aviani/)
+* [Github](https://github.com/GoranAviani)
  
 ## License
 
