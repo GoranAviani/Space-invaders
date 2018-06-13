@@ -49,7 +49,7 @@ pip3 install pygame
 
 ## Built With
 
-* [Pygame](https://www.pygame.org/news) - Pygame - Python modules that manage graphics, animation and sound.
+* [Pygame](https://www.pygame.org/docs/) - Pygame - Python modules that manage graphics, animation and sound.
 
 ## Authors
 
@@ -61,9 +61,4 @@ pip3 install pygame
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-
-* etc
