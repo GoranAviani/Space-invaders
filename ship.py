@@ -30,14 +30,14 @@ class Ship():
     #Change ship position based on movement direction
     def update(self):
         # Update the ships center value, not the rect.
-        if self.moving_right:
+        if self.moving_right and self.rect.right < self.screen_rect.right:
             # Move the ship to the right by 1px.
             #self.rect.centerx += 1
 
             self.center += self.ai_settings.ship_speed_factor
 
 
-        if self.moving_left:
+        if self.moving_left and self.rect.left > 0:
             # Move the ship to the left by 1px.
             #self.rect.centerx -= 1
 
