@@ -16,7 +16,7 @@ def run_game():
     pygame.display.set_caption("Space invaders by Goran Aviani")
 
     #make a ship
-    space_ship = Ship(screen)
+    space_ship = Ship(ai_settings, screen)
 
 
     #Start the main loop of the game
