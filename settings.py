@@ -11,3 +11,9 @@ class Settings():
         #Ship settings
         #On mowing ship position will be changed (from 1px originally) 1.5px in any direction
         self.ship_speed_factor = 1.5
+
+        #Bullets
+        self.bullet_speed_factor = 1
+        self.bullet_width = 3
+        self.bullet_height = 15
+        self.bullet_color = (60, 60, 60)
